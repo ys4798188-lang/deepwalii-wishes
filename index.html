@@ -251,8 +251,14 @@
       var wishText = '🌟 ' + name + ' की तरफ से आपको और आपके समस्त परिवार को शुभ दीपावली एवं महालक्ष्मी पूजन की हार्दिक शुभकामनाएं! 🪔✨';
       document.getElementById('generatedWishText').textContent = wishText;
 
-      var baseUrl = window.location.origin + window.location.pathname;
-      currentShareLink = baseUrl + '?from=' + encodeURIComponent(name);
+      var wishText = '⭐ ' + name + ' ki taraf se...';
+document.getElementById('generatedWishText').innerText = wishText;
+
+currentShareLink = 'https://deepwalii-wishes.vercel.app/?from=' + encodeURIComponent(name);
+
+var waMessage = ...
+    
+      
 
       var waMessage = '✨🪔 *शुभ दीपावली एवं महालक्ष्मी पूजन!* 🪔✨\\n\\n'
         + '*' + name + '* ने आपके और आपके परिवार के लिए एक अत्यंत सुंदर मंगल संदेश भेजा है!\\n\\n'
